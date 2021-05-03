@@ -50,7 +50,7 @@ const createOverlay = () => {
   // creates overlay 
   let overlay = document.createElement("div")
   overlay.id = "overlay"
-  overlay.style.cssText = "position:fixed;height:700px;width:900px;border-radius:15px;background-color:#F0F0F0;vertical-align:middle;justify-content:center;z-index:9999;top:50%;left:50%;margin-top:-400px;margin-left:-450px;z-index:9999;"
+  overlay.style.cssText = "position:fixed;height:700px;width:900px;border-radius:15px;background-color:#F0F0F0;vertical-align:middle;justify-content:center;top:50%;left:50%;margin-top:-400px;margin-left:-450px;z-index:9999;"
   background.appendChild(overlay)
 
   // creates link to cart page
